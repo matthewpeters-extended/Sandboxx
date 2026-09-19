@@ -2,7 +2,7 @@
 
 An AI assisted teaching productivity platform for K through 12 teachers: lesson planning, worksheets and assessments, a shared class calendar, and classroom tool integrations (Google Classroom, Canva, Kahoot, Khan Academy), built as a full stack Next.js application on Firebase.
 
-This repo is a technical write up of how the system is put together, written with reference to the topics in [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources). The source application itself is closed, so this focuses on the architecture decisions rather than the code.
+This repo is a technical write up of how the system is put together. The source application itself is closed, so this focuses on the architecture decisions rather than the code.
 
 ![Sandbox landing page](./screenshots/01_landing_hero.png)
 
@@ -91,7 +91,3 @@ All of this sits underneath a broader compliance goal, since the platform handle
 | Lesson planner: standards aligned lesson generation | Dashboard: upcoming lessons, assessments to mark, recent documents |
 | ![Calendar](./screenshots/04_calendar.png) | ![Document editor](./screenshots/05_document_editor.png) |
 | Class calendar: lessons, tests and assignments, and synced Google Classroom events | Document editor: a block based worksheet and homework editor with AI assist |
-
-## Reference
-
-System design vocabulary and structure referenced from [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources).
